@@ -2,7 +2,7 @@
 
 # 🌐 Anil Kumar | Personal Portfolio & AdTech Showcase
 
-[![Live Site](https://img.shields.io/badge/Live-kumar--ani--l.github.io-00D2FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://kumar-ani-l.github.io/AnilKumar.github.io/)
+[![Live Site](https://img.shields.io/badge/Live-anilkumar--adtech.github.io-00D2FF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://anilkumar-adtech.github.io/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Anil%20Kumar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kumar--anil/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
@@ -49,7 +49,7 @@ The website is engineered with a **custom dark glassmorphism design system**, an
 ## 📁 Repository Structure
 
 ```text
-AnilKumar.github.io/
+anilkumar-adtech.github.io/
 ├── index.html              # Main portfolio layout & markup
 ├── assets/
 │   ├── css/
@@ -74,7 +74,7 @@ AnilKumar.github.io/
 
 - **LinkedIn:** [linkedin.com/in/kumar--anil](https://www.linkedin.com/in/kumar--anil/)
 - **Email:** [anil.k1202@gmail.com](mailto:anil.k1202@gmail.com)
-- **GitHub:** [@kumar-ani-l](https://github.com/kumar-ani-l)
+- **GitHub:** [@anilkumar-adtech](https://github.com/anilkumar-adtech)
 
 ---
 
