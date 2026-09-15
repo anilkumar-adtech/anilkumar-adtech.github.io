@@ -72,6 +72,7 @@ anilkumar-adtech.github.io/
 
 ## 📬 Contact & Connect
 
+- **Phone / WhatsApp:** [+91 9015132120](tel:+919015132120) / [Chat on WhatsApp](https://wa.me/919015132120)
 - **LinkedIn:** [linkedin.com/in/kumar--anil](https://www.linkedin.com/in/kumar--anil/)
 - **Email:** [anil.k1202@gmail.com](mailto:anil.k1202@gmail.com)
 - **GitHub:** [@anilkumar-adtech](https://github.com/anilkumar-adtech)
