@@ -229,33 +229,84 @@ function initResumeDropdown() {
 }
 
 /* -------------------------------------------------------------------------- */
-/* 6. CONTACT FORM                                                           */
+/* 6. REAL BACKEND CONTACT FORM (AJAX EMAIL DELIVERY)                        */
 /* -------------------------------------------------------------------------- */
 function initContactForm() {
   const form = document.getElementById('contactForm');
-  if (!form) return;
+  const statusBanner = document.getElementById('formStatus');
+  const submitBtn = document.getElementById('submitBtn') || (form ? form.querySelector('button[type="submit"]') : null);
 
-  form.addEventListener('submit', (e) => {
+  if (!form || !submitBtn) return;
+
+  form.addEventListener('submit', async (e) => {
     e.preventDefault();
+
     const name = document.getElementById('nameInput').value.trim();
     const email = document.getElementById('emailInput').value.trim();
-    const subject = document.getElementById('subjectInput').value.trim() || 'AdTech Opportunity / Inquiry';
+    const subject = document.getElementById('subjectInput').value.trim() || 'New Portfolio Inquiry from ' + name;
     const message = document.getElementById('messageInput').value.trim();
 
-    const mailtoUrl = `mailto:anil.k1202@gmail.com?subject=${encodeURIComponent(subject + ' - from ' + name)}&body=${encodeURIComponent("Sender: " + name + " (" + email + ")\n\n" + message)}`;
+    if (!name || !email || !message) {
+      showStatus('error', '<i class="fa-solid fa-circle-exclamation"></i> Please fill in all required fields.');
+      return;
+    }
 
-    window.location.href = mailtoUrl;
+    // Set Loading State
+    const originalBtnHTML = submitBtn.innerHTML;
+    submitBtn.disabled = true;
+    submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> <span>Sending Message...</span>';
+    showStatus('loading', '<i class="fa-solid fa-spinner fa-spin"></i> Transmitting your message directly to Anil\'s inbox...');
 
-    const btn = form.querySelector('button[type="submit"]');
-    const originalText = btn.innerHTML;
-    btn.innerHTML = '<i class="fa-solid fa-check"></i> Email Client Opened!';
-    btn.style.background = '#10b981';
+    const payload = {
+      name: name,
+      email: email,
+      _subject: `[Portfolio Inquiry] ${subject} - from ${name}`,
+      message: message,
+      _template: 'table',
+      _captcha: 'false'
+    };
 
-    setTimeout(() => {
-      btn.innerHTML = originalText;
-      btn.style.background = '';
-    }, 4000);
+    try {
+      const response = await fetch('https://formsubmit.co/ajax/anil.k1202@gmail.com', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
+
+      const data = await response.json();
+
+      if (response.ok && (data.success === 'true' || data.success === true || data.message)) {
+        showStatus('success', '<i class="fa-solid fa-circle-check"></i> <strong>Thank you, ' + name + '!</strong> Your message has been sent directly to Anil\'s inbox. You will receive a response shortly.');
+        form.reset();
+        submitBtn.innerHTML = '<i class="fa-solid fa-check"></i> <span>Message Sent!</span>';
+        submitBtn.style.background = '#10b981';
+
+        setTimeout(() => {
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = originalBtnHTML;
+          submitBtn.style.background = '';
+        }, 5000);
+      } else {
+        throw new Error(data.message || 'Form submission failed');
+      }
+    } catch (err) {
+      console.warn('Direct form submission error, providing fallback:', err);
+      const mailtoUrl = `mailto:anil.k1202@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent("From: " + name + " (" + email + ")\n\n" + message)}`;
+      showStatus('error', `<i class="fa-solid fa-circle-exclamation"></i> Could not send automatically. <a href="${mailtoUrl}" style="color: #ffffff; text-decoration: underline; font-weight: 700;">Click here to send directly via Email</a>`);
+      submitBtn.disabled = false;
+      submitBtn.innerHTML = originalBtnHTML;
+    }
   });
+
+  function showStatus(type, html) {
+    if (!statusBanner) return;
+    statusBanner.className = `form-status ${type}`;
+    statusBanner.innerHTML = html;
+    statusBanner.style.display = 'flex';
+  }
 }
 
 /* -------------------------------------------------------------------------- */

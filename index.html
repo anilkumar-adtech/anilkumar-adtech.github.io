@@ -1188,30 +1188,33 @@
 
           <!-- Interactive Contact Form -->
           <div class="contact-form-card">
+            <!-- Dynamic Status Banner -->
+            <div id="formStatus" class="form-status" style="display: none;"></div>
+
             <form id="contactForm">
               <div class="form-group">
-                <label for="nameInput" class="form-label">Your Name</label>
-                <input type="text" id="nameInput" class="form-input" placeholder="e.g. John Doe" required />
+                <label for="nameInput" class="form-label">Your Name <span style="color: var(--accent-cyan);">*</span></label>
+                <input type="text" id="nameInput" name="name" class="form-input" placeholder="e.g. John Doe" required />
               </div>
 
               <div class="form-group">
-                <label for="emailInput" class="form-label">Your Email</label>
-                <input type="email" id="emailInput" class="form-input" placeholder="e.g. john@company.com" required />
+                <label for="emailInput" class="form-label">Your Email <span style="color: var(--accent-cyan);">*</span></label>
+                <input type="email" id="emailInput" name="email" class="form-input" placeholder="e.g. john@company.com" required />
               </div>
 
               <div class="form-group">
                 <label for="subjectInput" class="form-label">Subject</label>
-                <input type="text" id="subjectInput" class="form-input" placeholder="e.g. AdTech Opportunity / Publisher Partnership" />
+                <input type="text" id="subjectInput" name="subject" class="form-input" placeholder="e.g. AdTech Opportunity / Publisher Partnership" />
               </div>
 
               <div class="form-group">
-                <label for="messageInput" class="form-label">Message</label>
-                <textarea id="messageInput" class="form-textarea" placeholder="Hello Anil, we would love to discuss a role..." required></textarea>
+                <label for="messageInput" class="form-label">Message <span style="color: var(--accent-cyan);">*</span></label>
+                <textarea id="messageInput" name="message" class="form-textarea" placeholder="Hello Anil, we would love to discuss a role..." required></textarea>
               </div>
 
-              <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <button type="submit" id="submitBtn" class="btn btn-primary" style="width: 100%;">
                 <i class="fa-solid fa-paper-plane"></i>
-                <span>Send Message via Email</span>
+                <span>Send Message</span>
               </button>
             </form>
           </div>
