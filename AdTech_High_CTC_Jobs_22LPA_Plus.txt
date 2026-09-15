@@ -1,0 +1,148 @@
+================================================================================
+           ANIL KUMAR - HIGH CTC ADTECH JOB OPPORTUNITIES (₹22 LPA - ₹40+ LPA)
+================================================================================
+Candidate: Anil Kumar (Publisher Solution Specialist & Technical Implementation Expert)
+Experience: 7+ Years (Airfind, Taboola, Verifacts, AuthBridge)
+Target Locations: Gurugram, Noida, Delhi NCR, Bengaluru, Remote (India & US/EU)
+Live Portfolio: https://anilkumar-adtech.github.io/
+LinkedIn: https://www.linkedin.com/in/kumar--anil/
+Contact: anil.k1202@gmail.com | +91 9015132120
+================================================================================
+
+--------------------------------------------------------------------------------
+1. GOOGLE - TECHNICAL SOLUTIONS CONSULTANT (GOOGLE AD MANAGER / RSOC)
+--------------------------------------------------------------------------------
+• Expected CTC: ₹28 LPA - ₹42 LPA (Base + Stocks + Annual Bonus)
+• Location: Gurugram / Bengaluru / Hyderabad (Hybrid)
+• Why Anil is 100% Fit: Direct production expertise in Google RSOC, Google CSE, 
+  Google AdSense, Google Ad Manager (GAM), GA4, JavaScript ad tags & SQL data.
+• Key Focus: Enterprise publisher monetization strategy, ad server tagging, 
+  technical troubleshooting for large media publishers.
+• How to Apply: https://www.google.com/about/careers/ (Search "Technical Solutions Consultant")
+
+
+--------------------------------------------------------------------------------
+2. PUBMATIC - SENIOR / LEAD PUBLISHER TECHNICAL ACCOUNT MANAGER (TAM)
+--------------------------------------------------------------------------------
+• Expected CTC: ₹24 LPA - ₹32 LPA
+• Location: Gurugram / Pune (Hybrid / Remote Options)
+• Why Anil is 100% Fit: 7+ years publisher solutions and client support, 
+  deep understanding of SSP architectures, revenue yield and ad telemetry.
+• Key Focus: OpenWrap (Header Bidding) implementations, SSP partner onboarding, 
+  publisher yield analytics using Looker Studio & SQL, resolving technical escalations.
+• How to Apply: https://pubmatic.com/careers/
+
+
+--------------------------------------------------------------------------------
+3. TABOOLA - IMPLEMENTATION TEAM LEAD / MANAGER (PUBLISHER SOLUTIONS)
+--------------------------------------------------------------------------------
+• Expected CTC: ₹22 LPA - ₹30 LPA
+• Location: Gurugram, Haryana (Hybrid)
+• Why Anil is 100% Fit: Prior 3+ years at Taboola (Senior Implementation Rep), 
+  SME in Newsletter Organic Mapping (XPath), Mission America lead, 100+ monthly integrations.
+• Key Focus: Leading implementation teams, global publisher escalations (EMEA/US/APAC), 
+  custom CSS layouts, feed/widget integrations.
+• How to Apply: https://www.taboola.com/careers/jobs (Or direct connect with Taboola Gurugram Operations Directors)
+
+
+--------------------------------------------------------------------------------
+4. MEDIA.NET - SENIOR TECHNICAL ACCOUNT MANAGER / PUBLISHER MONETIZATION LEAD
+--------------------------------------------------------------------------------
+• Expected CTC: ₹25 LPA - ₹36 LPA
+• Location: Delhi NCR / Mumbai / Remote
+• Why Anil is 100% Fit: Airfind search monetization experience with Yahoo Search Ads, 
+  Yahoo D2S/N2S, Bing Native Display and click quality management.
+• Key Focus: Yahoo/Bing contextual & search ads monetization, scaling publisher RPMs, 
+  traffic quality control and fraud prevention.
+• How to Apply: https://www.media.net/careers
+
+
+--------------------------------------------------------------------------------
+5. MAGNITE (EX-RUBICON PROJECT & TELARIA) - SENIOR SOLUTIONS ENGINEER
+--------------------------------------------------------------------------------
+• Expected CTC: ₹26 LPA - ₹38 LPA
+• Location: Gurugram / Bengaluru / Remote
+• Key Focus: Supply-Side Platform (SSP) architecture, Prebid.js integrations, 
+  video/native/display yield management, API troubleshooting.
+• How to Apply: https://www.magnite.com/careers/
+
+
+--------------------------------------------------------------------------------
+6. CRITEO - SENIOR TECHNICAL SOLUTIONS ENGINEER (ADOPS & SSP)
+--------------------------------------------------------------------------------
+• Expected CTC: ₹23 LPA - ₹34 LPA
+• Location: Gurugram, Haryana (Hybrid)
+• Key Focus: Tag implementation, tracking pixels instrumentation, REST API 
+  validation, cross-functional resolution of complex publisher issues.
+• How to Apply: https://careers.criteo.com/
+
+
+--------------------------------------------------------------------------------
+7. INMOBI / GLANCE - LEAD - PARTNER SOLUTIONS & PUBLISHER YIELD
+--------------------------------------------------------------------------------
+• Expected CTC: ₹24 LPA - ₹35 LPA
+• Location: Bengaluru / Remote
+• Key Focus: Publisher partner onboarding, mobile ad waterfall optimization, 
+  Looker Studio & Kibana dashboards, SDK/API integration.
+• How to Apply: https://www.inmobi.com/company/careers
+
+
+--------------------------------------------------------------------------------
+8. DOUBLEVERIFY (DV) / IAS - SENIOR CLIENT SOLUTIONS ENGINEER (IVT & VERIFICATION)
+--------------------------------------------------------------------------------
+• Expected CTC: ₹25 LPA - ₹35 LPA
+• Location: Gurugram / Bengaluru
+• Why Anil is 100% Fit: Proven track record of cutting fraudulent ad activity by 15% 
+  at Airfind via click-limiting mechanisms and IVT scrubbers.
+• Key Focus: Ad verification, Invalid Traffic (IVT) mitigation, measurement pixels, 
+  publisher compliance.
+• How to Apply: https://doubleverify.com/careers/
+
+
+--------------------------------------------------------------------------------
+9. AMAZON ADVERTISING - TECHNICAL ACCOUNT MANAGER (AMAZON PUBLISHER SERVICES)
+--------------------------------------------------------------------------------
+• Expected CTC: ₹28 LPA - ₹40 LPA
+• Location: Gurugram / Bengaluru
+• Key Focus: Amazon Publisher Services (APS), Transparent Ad Marketplace (TAM), 
+  Header Bidding integration, publisher yield optimization.
+• How to Apply: https://www.amazon.jobs/ (Search "Amazon Publisher Services")
+
+
+--------------------------------------------------------------------------------
+10. US/EU GLOBAL REMOTE ADTECH COMPANIES (RAPTIVE, MEDIAVINE, FREESTAR, SOVRN)
+--------------------------------------------------------------------------------
+• Expected Compensation: $35,000 - $65,000 USD/Year (Approx. ₹30 LPA - ₹55 LPA)
+• Location: 100% Remote (Work from India for US/UK Publishers)
+• Key Focus: High-RPM publisher monetization, header bidding management, 
+  GAM policy compliance, GA4 revenue attribution.
+• Platforms to Search: https://cutshort.io | https://iimjobs.com | https://wellfound.com
+
+
+================================================================================
+                    ACTIONABLE LINKEDIN OUTREACH MESSAGE TEMPLATE
+================================================================================
+Use this template when messaging Hiring Managers, Directors of Ad Operations, 
+or Technical Solutions Leads on LinkedIn:
+
+Subject / Message:
+--------------------------------------------------------------------------------
+Hi [Name],
+
+I came across your profile and noticed your team is scaling AdTech & Publisher Solutions at [Company Name].
+
+With 7+ years of experience across Airfind and Taboola (ex-Senior Implementation Rep), I specialize in:
+• Managing Search Monetization (Google RSOC, CSE, Yahoo D2S/N2S, Bing Native) contributing to +30% revenue growth.
+• Solving 1,000+ technical deployments across JavaScript, SQL, XPath metadata, GA4, Looker Studio, and Kibana.
+• Reducing ad fraud & IVT by 15% through custom click-limiting filters.
+
+You can review my interactive portfolio, experience breakdown, and resume here:
+👉 https://anilkumar-adtech.github.io/
+
+I would welcome the opportunity to connect and discuss how I can contribute to your team's publisher operations and technical delivery goals.
+
+Best regards,
+Anil Kumar
++91 9015132120 | anil.k1202@gmail.com
+LinkedIn: linkedin.com/in/kumar--anil
+================================================================================
